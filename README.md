@@ -94,10 +94,10 @@ It helps us in assigning multiple values to a single function at once without th
 This gives the value 59.
 
 ```
-> test [1 : 5]
-[1] 59.0 55.0 53.5 55.0 52.5
+> test [1 : 6]
+[1] 59.0 55.0 53.5 55.0 52.5 57.5
 ```
-This prints the values from First index to the fifth one.
+This prints the values from First index to the sixth one.
 
 ```
 > test [-2]
