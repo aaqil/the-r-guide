@@ -106,8 +106,7 @@ This prints the values from First index to the sixth one.
 Hence, the minus sign omits a value. The second index is omitted and the remaining values are displayed.
 
 
-
-
+**The complete guide is coming soon. I'll be heavily updating the notes soon..**
 
 
 
