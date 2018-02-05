@@ -45,7 +45,7 @@
 ## Getting Data into R ##
 
 **Assigning variables:**
-```
+```r
  a <- 59
  b <- 55
  c <- 53.5
@@ -54,7 +54,7 @@ In R, variables are assigned like this. Instead you can use the **=** symbol ins
 The above example explains that **a** takes the value of 59 and similarly b and c.
 
 The output of the above code is:
-```
+```r
 a
 [1] 59
 ```
@@ -62,7 +62,7 @@ same as the above format for b and c. To see the values of b & c, type b and c.
 
 In R, We have some inbuilt functions like **sqrt**, **mean**,**sum**,**min** ,**max** ,**median** ,**var**, **sd** and others. We can use this and perform operations on the variables and data.
 
-```
+```r
 sq.str <- sqrt(a)
 ```
 Here the above snippet explains that the sqrt of **a** value is stored in the variable **sq.str**
@@ -76,37 +76,37 @@ However, you should avoid names that contain characters like £, $, %, ^ , *, +,
 
 R provides us with c() function, where c stands for concatenate. It isused as follows 
 
-```
+```r
 test <- c(59, 55, 53.5, 55, 52.5, 57.5, 53, 55)
 ```
 **Output**
-```
+```r
 test
 [1] 59.0 55.0 53.5 55.0 52.5 57.5 53.0 55.0
 ```
 
 It helps us in assigning multiple values to a single function at once without the need of assigning variables and alloting values to each of them.
 
-```
+```r
 > test [1]
 [1] 59
 ```
 This gives the value 59.
 
-```
+```r
 > test [1 : 6]
 [1] 59.0 55.0 53.5 55.0 52.5 57.5
 ```
 This prints the values from First index to the sixth one.
 
-```
+```r
 > test [-2]
 [1] 59.0 53.5 55.0 52.5 57.5 53.0 55.0
 ```
 Hence, the minus sign omits a value. The second index is omitted and the remaining values are displayed.
 
 
-**The complete guide is coming soon. I'll be heavily updating the notes soon..**
+**Stay tuned for more updates. Feel free to fork and contribute.**
 
 
 
